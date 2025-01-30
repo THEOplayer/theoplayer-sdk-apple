@@ -21,8 +21,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "THEOplayerGoogleCastIntegration",
-      url: "https://cdn.theoplayer.com/build/sdk-apple/8.9.0/THEOplayerGoogleCastIntegration.xcframework.zip",
-      checksum: "fe542b33694e607c2a0a42ac32a311926a1f30ef13ba56e602f46f968008257b"
+      url: "https://cdn.theoplayer.com/build/sdk-apple/8.10.0/THEOplayerGoogleCastIntegration.xcframework.zip",
+      checksum: "5ea99345c3e542a6ec70063eb9e383baabf914cb7d6d56f5c2104b8cd5c013d6"
     ),
     .binaryTarget(
       name: "THEOplayerSDK",
