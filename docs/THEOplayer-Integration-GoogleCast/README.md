@@ -37,7 +37,7 @@ Import the framework in the source files where it will be used:
 import THEOplayerGoogleCastIntegration
 ```
 
-You will also need the THEOplayer core SDK since the THEOplayer GoogleCast integration extends it's functionality.
+You will also need the THEOplayer core SDK since the THEOplayer GoogleCast integration extends its functionality.
 <br/>To import the THEOplayer core SDK framework add:
 
 
@@ -53,13 +53,21 @@ First set the context in your `AppDelegate` file's `didFinishLaunchingWithOption
 THEOplayerGoogleCastIntegration.CastIntegrationHelper.setGCKCastContextSharedInstanceWithDefaultCastOptions()
 ```
 
+> **Note:** The above method will set the options for `GCKCastContext` with a CAF receiver application. If a custom context must be set, instead of calling the `setGCKCastContextSharedInstanceWithDefaultCastOptions` method, the implementation should specify an `GCKDiscoveryCriteria` in the context with an `applicationID` parameter. You can find the default THEOplayer CAF V3 default application ID at `CastIntegrationHelper.defaultV3ReceiverApplicationID`.
+
+> **Note:** The THEOplayer Google Cast integration only supports CAF receivers.
+
 Second, you will need to provide some privacy permissions and network discovery allowances. For more information on this, please check the [following documentation about permissions and discovery.](https://developers.google.com/cast/docs/ios_sender/permissions_and_discovery)
 
 After initializing your `THEOplayer` instance, initialize the integration and pass it to the `THEOplayer` instance:
 
 ```swift
+let configBuilder = THEOplayerConfigurationBuilder()
+configBuilder.license = "your_theoplayer_license"
+let theoplayer = THEOplayer(configuration: configBuilder.build()
+
 let castConfiguration: CastConfiguration = CastConfiguration(strategy: .auto)
-let castIntegration: THEOplayerSDK.Integration = GoogleCastIntegrationFactory.createIntegration(on: self.theoplayer, with: castConfiguration)
+let castIntegration: THEOplayerSDK.Integration = GoogleCastIntegrationFactory.createIntegration(on: theoplayer, with: castConfiguration)
 theoplayer.addIntegration(castIntegration)
 ```
 

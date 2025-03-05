@@ -39,7 +39,7 @@ Import the framework in the source files where it will be used:
 import THEOplayerGoogleIMAIntegration
 ```
 
-You will also need the THEOplayer core SDK since the THEOplayer GoogleIMA integration extends it's functionality.
+You will also need the THEOplayer core SDK since the THEOplayer GoogleIMA integration extends its functionality.
 <br/>To import the THEOplayer core SDK framework add:
 
 
@@ -52,7 +52,9 @@ import THEOplayerSDK
 Initialize the integration and pass it to the `THEOplayer` instance:
 
 ```swift
-let theoplayer = THEOplayer()
+let configBuilder = THEOplayerConfigurationBuilder()
+configBuilder.license = "your_theoplayer_license"
+let theoplayer = THEOplayer(configuration: configBuilder.build()
 let imaIntegration = GoogleIMAIntegrationFactory.createIntegration(on: theoplayer)
 theoplayer.addIntegration(imaIntegration)
 ```

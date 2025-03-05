@@ -1,12 +1,12 @@
 # THEOplayer SDK and integrations for Apple platforms
 
-<h3>This repository hosts the package manifest file for Swift Package Manager of the core THEOplayer SDK and it's integrations for Apple platforms. It does not include any frameworks or source files.</h3>
+<h3>This repository hosts the package manifest file for Swift Package Manager of the core THEOplayer SDK and its integrations for Apple platforms. It does not include any frameworks or source files.</h3>
 
 ## Installation
 
 Navigate to your Xcode project and switch to the `Package Dependencies` tab. Click on the `+` button to add a new SPM package and enter in the search bar the URL of this repo https://github.com/THEOplayer/theoplayer-sdk-apple.
 
-<h2><i>It also hosts some documentation files for:</i></h2>
+<h2><i>Integrations</i></h2>
 
 ### THEOplayer Google IMA integration
 
