@@ -4,8 +4,8 @@
     "checksum": "25326f6e8e1e0c79dff4ec34d64bebc7d7a4447aff826ff3b24e58427f4f4cfe"
   },
   "THEOplayerGoogleCastIntegration": {
-    "url": "https://cdn.theoplayer.com/build/sdk-apple/8.13.1/THEOplayerGoogleCastIntegration.xcframework.zip",
-    "checksum": "bd27ee2c5a29601f8ecb02eb48b153a81d3c2e4446c3c9e4437c65ee999b8f0b"
+    "url": "https://cdn.theoplayer.com/build/sdk-apple/8.13.2/THEOplayerGoogleCastIntegration.xcframework.zip",
+    "checksum": "3d46d216ef89c82f4724554b2eb80f5e2e545854926ff651b24283675e36c4b8"
   },
   "THEOplayerSDK": {
     "url": "https://cdn.theoplayer.com/build/sdk-apple/8.13.2/THEOplayerSDK.xcframework.zip",
