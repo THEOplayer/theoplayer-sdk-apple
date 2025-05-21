@@ -32,8 +32,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "THEOplayerTHEOliveIntegration",
-      url: "https://cdn.theoplayer.com/build/sdk-apple/9.3.2/THEOplayerTHEOliveIntegration.xcframework.zip",
-      checksum: "8bc34df1808a41a04790e3813d91cf653f27281abbf118c2aefbbe16f9e26206"
+      url: "https://cdn.theoplayer.com/build/sdk-apple/9.4.0/THEOplayerTHEOliveIntegration.xcframework.zip",
+      checksum: "57020bb278f1befb8783b757a6077c9360aa7e6400d12de6e7c7f200ab55fb14"
     ),
     .binaryTarget(
       name: "THEOplayerMillicastIntegration",
