@@ -8,8 +8,8 @@
     "checksum": "58d0337c449f5ba3e030de300663fdb37006f198f0c99b489b9b1a2b9eae6989"
   },
   "THEOplayerSDK": {
-    "url": "https://cdn.theoplayer.com/build/sdk-apple/10.5.0/THEOplayerSDK.xcframework.zip",
-    "checksum": "7ee8ea324cc2f05acdab569f78c8ce17ca1a79bd3e0e121e886396366d72beae"
+    "url": "https://cdn.theoplayer.com/build/sdk-apple/10.5.1/THEOplayerSDK.xcframework.zip",
+    "checksum": "96c658c66f0393bdb4e9b31dd34658714fe5c7b73e1aed9172b2e0a5017fe4f3"
   },
   "THEOplayerTHEOliveIntegration": {
     "url": "https://cdn.theoplayer.com/build/sdk-apple/10.5.0/THEOplayerTHEOliveIntegration.xcframework.zip",
