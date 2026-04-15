@@ -1,7 +1,7 @@
 {
   "THEOplayerGoogleIMAIntegration": {
-    "url": "https://cdn.theoplayer.com/build/sdk-apple/10.14.0/THEOplayerGoogleIMAIntegration.xcframework.zip",
-    "checksum": "c97e36dfc915f353cac9bee2f0256db9ed4538e60e5f46fbc0b33b6776a861d3"
+    "url": "https://cdn.theoplayer.com/build/sdk-apple/10.12.2/THEOplayerGoogleIMAIntegration.xcframework.zip",
+    "checksum": "8db4285d2ffa2e59627983b2e8bbf898e17f1604b91efef2a32e983d74b5d86b"
   },
   "THEOplayerGoogleCastIntegration": {
     "url": "https://cdn.theoplayer.com/build/sdk-apple/10.12.2/THEOplayerGoogleCastIntegration.xcframework.zip",
