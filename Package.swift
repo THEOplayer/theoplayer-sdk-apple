@@ -3,8 +3,8 @@ import PackageDescription
 let package = Package(
   name: "THEOplayerSDK",
   platforms: [
-    .iOS( .v13),
-    .tvOS(.v13)
+    .iOS( .v15),
+    .tvOS(.v15)
   ],
   products: [
     .library(name: "THEOplayerGoogleIMAIntegration", targets: ["THEOplayerGoogleIMAIntegration"]),
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "THEOplayerGoogleCastIntegration",
-      url: "https://cdn.theoplayer.com/build/sdk-apple/10.12.2/THEOplayerGoogleCastIntegration.xcframework.zip",
-      checksum: "d4de3d77ad7dd42549f40ac1660dc91d2bb27e9344b26dee69ab13b4ccfe49f2"
+      url: "https://cdn.theoplayer.com/build/sdk-apple/11.0.0/THEOplayerGoogleCastIntegration.xcframework.zip",
+      checksum: "32d1ec9db2c649724863166d4172e4b11ccef235e2de2295e13b101fb0e3643b"
     ),
     .binaryTarget(
       name: "THEOplayerSDK",
