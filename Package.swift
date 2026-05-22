@@ -18,7 +18,7 @@ let package = Package(
     .binaryTarget(
       name: "THEOplayerGoogleIMAIntegration",
       url: "https://cdn.theoplayer.com/build/sdk-apple/11.3.0/THEOplayerGoogleIMAIntegration.xcframework.zip",
-      checksum: "b3d8034741f499b9cf1941fc1a1a5295f543cbd6fa7a4e2c285dcc3cb7f6f46e"
+      checksum: "138b273a7ba2650da6811265214f0157faca3e50d9282ce233fb935d705c4bfa"
     ),
     .binaryTarget(
       name: "THEOplayerGoogleCastIntegration",
@@ -28,7 +28,7 @@ let package = Package(
     .binaryTarget(
       name: "THEOplayerSDK",
       url: "https://cdn.theoplayer.com/build/sdk-apple/11.3.0/THEOplayerSDK.xcframework.zip",
-      checksum: "327e6a3ef4d6ace10b7bb22b77f19ffb99be0e69bbae6f5907cb9771cbabf744"
+      checksum: "7add1f93ce5cfb0591373762bc914cf468cb8fe91a68904c34e1f375806e7edf"
     ),
     .binaryTarget(
       name: "THEOplayerTHEOliveIntegration",
@@ -43,7 +43,7 @@ let package = Package(
     .binaryTarget(
       name: "THEOplayerTHEOadsIntegration",
       url: "https://cdn.theoplayer.com/build/sdk-apple/11.3.0/THEOplayerTHEOadsIntegration.xcframework.zip",
-      checksum: "fd5e016c5e03d2365b50ddd91fe82e2299ff53654777ecf3febcba4bf2c6fa37"
+      checksum: "0e7591f1a09b928703411dce9693c12dd87901f5ada060561bd727a4c955c19a"
     ),
   ]
 )
