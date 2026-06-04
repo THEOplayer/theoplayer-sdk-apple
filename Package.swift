@@ -27,8 +27,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "THEOplayerSDK",
-      url: "https://cdn.theoplayer.com/build/sdk-apple/11.3.0/THEOplayerSDK.xcframework.zip",
-      checksum: "327e6a3ef4d6ace10b7bb22b77f19ffb99be0e69bbae6f5907cb9771cbabf744"
+      url: "https://cdn.theoplayer.com/build/sdk-apple/11.4.0/THEOplayerSDK.xcframework.zip",
+      checksum: "e8dfb162831fd7d7c6ed37dc65dfe12a44a08ae283fa9a1b0d198b7fd633286c"
     ),
     .binaryTarget(
       name: "THEOplayerTHEOliveIntegration",
