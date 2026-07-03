@@ -16,8 +16,8 @@
     "checksum": "4db1147483538520ef8eeb0adbcc2f90bb6f2bf5cd924ab205d0078bdf71093f"
   },
   "THEOplayerMillicastIntegration": {
-    "url": "https://cdn.theoplayer.com/build/sdk-apple/11.5.0/THEOplayerMillicastIntegration.xcframework.zip",
-    "checksum": "161f384c85387ce5f29eb0d6457c90d112fa5a346f130d308ee2c8af5774a0a2"
+    "url": "https://cdn.theoplayer.com/build/sdk-apple/11.5.1/THEOplayerMillicastIntegration.xcframework.zip",
+    "checksum": "05bb9b6eabca0e5734762afabb6a6b827ca7bede8a8c0b28c0085c5056c116fa"
   },
   "THEOplayerTHEOadsIntegration": {
     "url": "https://cdn.theoplayer.com/build/sdk-apple/11.5.0/THEOplayerTHEOadsIntegration.xcframework.zip",
