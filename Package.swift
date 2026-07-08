@@ -17,8 +17,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "THEOplayerGoogleIMAIntegration",
-      url: "https://cdn.theoplayer.com/build/sdk-apple/11.6.0/THEOplayerGoogleIMAIntegration.xcframework.zip",
-      checksum: "6ead06a7cfa255dd67bf04c1efd6972b52224ca89e01bb6be641d8bab5f13469"
+      url: "https://cdn.theoplayer.com/build/sdk-apple/11.6.1/THEOplayerGoogleIMAIntegration.xcframework.zip",
+      checksum: "ae527b9f79f25eccc9ac356398369d928e1b0550d34b0426272df6a0fb46db2e"
     ),
     .binaryTarget(
       name: "THEOplayerGoogleCastIntegration",
