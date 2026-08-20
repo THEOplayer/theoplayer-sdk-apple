@@ -42,8 +42,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "THEOplayerTHEOadsIntegration",
-      url: "https://cdn.theoplayer.com/build/sdk-apple/11.9.0/THEOplayerTHEOadsIntegration.xcframework.zip",
-      checksum: "eacc0b6b2924053ac647114d4282934104bec2c3c440bab310c804396e1ec55f"
+      url: "https://cdn.theoplayer.com/build/sdk-apple/11.5.4/THEOplayerTHEOadsIntegration.xcframework.zip",
+      checksum: "6e143126f42341a49b6089f1b370e8060e433c220771bf11b12134dd4e3e871a"
     ),
   ]
 )
