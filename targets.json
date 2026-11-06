@@ -17,7 +17,7 @@
   },
   "THEOplayerMillicastIntegration": {
     "url": "https://cdn.theoplayer.com/build/sdk-apple/11.15.0/THEOplayerMillicastIntegration.xcframework.zip",
-    "checksum": "342068e8ea486997abd2083b00c8f1a5fc826a5397a28222154383e159572453"
+    "checksum": "366e40dc612971ee49f6f5da0c58a55349e5e34f38d5e601458d3008203c8a41"
   },
   "THEOplayerTHEOadsIntegration": {
     "url": "https://cdn.theoplayer.com/build/sdk-apple/11.15.0/THEOplayerTHEOadsIntegration.xcframework.zip",
