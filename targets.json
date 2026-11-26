@@ -20,7 +20,7 @@
     "checksum": "1eef36843b4e1834070efdf29f9dc4c534410d4b254ebdcd166cf3e1e88c90a4"
   },
   "THEOplayerTHEOadsIntegration": {
-    "url": "https://cdn.theoplayer.com/build/sdk-apple/11.16.1/THEOplayerTHEOadsIntegration.xcframework.zip",
-    "checksum": "3c9ce34e36dd20ce5a8a1d31c006932a985d5f841d6fa81eb93a49da4b76ffc2"
+    "url": "https://cdn.theoplayer.com/build/sdk-apple/11.4.2/THEOplayerTHEOadsIntegration.xcframework.zip",
+    "checksum": "36ecff8ded57e6a95add1a23ef9984e189c21b1deb19063bef5092ed23aeb3bf"
   }
 }
